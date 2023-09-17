@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+background-color: #fafafa;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+.frst-txt{
+  font-size: 29px;
+  font-weight: 100;
+  color: rgb(90, 83, 83)
+}
+.scnd-txt{
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(90, 83, 83)
+}
+.third-txt{
+  font-size: 14px;
+  color: rgb(145, 145, 144);
+}
+
+
+/* cardsection */
+.card-section{
+  margin-top: 60px;
+  padding: 30px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  transition: 1s;
+ 
+}
+.card-section:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+  margin-top: 60px;
+  padding: 30px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  border-bottom:1px solid #cacbcc;
+  border-right:2px solid #d9d9db;
+}
+.card-txt{
+  color: #b8b8bd;
+  font-size: 12px;
+}
+.img-size{
+  width: 15%;
+}
+.minus-m{
+  margin-top: -60px;
+}
+.lgtbrdr-blue{
+  border-top: 3px solid #4bb5b6;
+}
+.brdr-red{
+  border-top: 3px solid #bf676a;
+ 
+}
+.brdr-calc{
+  border-top: 3px solid #4083be;
+}
+.brdr-karma{
+  border-top: 3px solid #edac48;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .minus-m{
+    margin-top: 0px;
+  }
+  .card-section{
+    margin-top: 30px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .minus-m{
+    margin-top: 0px;
+  }
+  .card-section{
+    margin-top: 30px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .card-section{
+    margin-top: 65px;
+  }
+  .minus-m{
+    margin-top: -60px;
+  }
+}
